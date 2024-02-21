@@ -2,7 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Create a `.env.local` file in the root of the project and add the following environment variables:
+
+```bash
+NEXT_PUBLIC_BLOCKFROST_ID=<YOUR_BLOCKFROST_ID>
+NEXT_PUBLIC_BLOCKFROST_URL=https://cardano-preprod.blockfrost.io/api/v0
+NEXT_PUBLIC_NETWORK=Preprod
+NEXT_PUBLIC_RUNTIME_URL=<YOUR_RUNTIME_URL>
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
